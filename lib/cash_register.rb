@@ -2,10 +2,8 @@ require 'pry'
 
 class CashRegister
   
-attr_writer :discount, :total
-attr_reader :discount, :total, :items, :last 
-
-#why do we need a :total writer method?
+  attr_writer :discount, :total
+  attr_reader :discount, :total, :items, :last 
 
   def initialize(discount = nil)
     @total = 0 
