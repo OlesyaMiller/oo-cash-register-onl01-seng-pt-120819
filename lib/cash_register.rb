@@ -1,5 +1,3 @@
-require 'pry'
-
 class CashRegister
   
   attr_writer :discount, :total
